@@ -153,7 +153,7 @@ color: #575757;
 /* ..................................................... */
 .card-section{
   /* background-color: aqua; */
-  
+  Width: 80%;
   margin: 0 auto ;
 }
 .card{
@@ -163,7 +163,7 @@ color: #575757;
   gap: 30px 20px;
   margin: 0 auto;
   padding: 60px 20px;
-  Width: 60%;
+  
   
 }
 .card-spot{
@@ -172,7 +172,8 @@ color: #575757;
   border: 1px solid #E5E7EB;
   border-radius: 2%;
   padding: 32px;
-  
+  margin: 1%;
+  width: 80%;
 }
 
 .card-spot ul {
@@ -194,7 +195,7 @@ margin: 10px;
   border: 1px solid #E5E7EB;
   border-radius: 2%;
   padding: 32px;
-  
+  width: 80%;
 }
 .card-spot-pro h2{color: #FFFFFF;}
 .card-spot-pro button{
@@ -208,4 +209,24 @@ ul {
 padding-left: 10px;
 margin: 10px;
 color: #FFFFFF;
+}
+footer{
+  background-color: #2f3031;
+  
+  
+}
+
+.logo-f{display: flex;
+padding: 32px;}
+
+footer hr{
+    border: 0;
+    border-top: 1px solid #4b5563;
+    margin: 20px 0;
+}
+
+.copyright{
+  color: #575757;
+  text-align: center;
+  padding: 20px;
 }
