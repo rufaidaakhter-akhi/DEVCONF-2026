@@ -52,7 +52,7 @@ button {
   
   gap: 10px;
   align-items: center;
-  border: 1px solid red;
+  
   height: 100%;
   color: white;
   text-align: center;
@@ -84,3 +84,67 @@ button {
   cursor: pointer;
 }
 /* end hero banner */
+
+
+/* <!-- start  Speakers Section --> */
+.section-box {
+  padding: 60px 80px;
+  text-align: center;
+  /* background-color: #7da1e9; */
+  /* border: 1px solid red; */
+}
+.section-box h2 {
+  font-size: 56px;
+  font-weight: bold;
+  color: #000102;
+  margin-bottom: 40px;
+}
+
+.speakers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  gap: 30px 20px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  Width: 80%;
+  /* background-color: #e73ea1; */
+}
+
+/* card */
+.speaker-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  
+}
+
+.speaker-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+.card-text {
+  padding: 10px 50px;
+  text-align: left;
+}
+
+.card-text .track-label {
+  font-size: 12px;
+  font-style: 600;
+  color: #2563EB;
+  margin-bottom: 5px;
+}
+.card-text .speaker-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0D1B2A;
+  margin-bottom: 5px;
+}
+
+.card-text .company {
+  font-size: 14px;
+font-weight: 400;
+color: #575757;
+
+}
