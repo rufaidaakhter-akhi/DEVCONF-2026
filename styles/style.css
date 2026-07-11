@@ -90,6 +90,7 @@ button {
 .section-box {
   padding: 60px 80px;
   text-align: center;
+  margin-bottom: 10px;
   /* background-color: #7da1e9; */
   /* border: 1px solid red; */
 }
@@ -97,7 +98,7 @@ button {
   font-size: 56px;
   font-weight: bold;
   color: #000102;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .speakers {
@@ -129,22 +130,36 @@ button {
   text-align: left;
 }
 
-.card-text .track-label {
+.track-label {
   font-size: 12px;
   font-style: 600;
   color: #2563EB;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
-.card-text .speaker-name {
+.speaker-name {
   font-size: 20px;
   font-weight: 700;
   color: #0D1B2A;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
-.card-text .company {
-  font-size: 14px;
+.company {
+font-size: 14px;
 font-weight: 400;
 color: #575757;
 
+}
+
+/* ..................................................... */
+.card-section{background-color: aqua;
+}
+.card{
+  display: flex;
+
+  
+  width: 50%;
+ 
+  background-color: #2563EB;
+  border: 1px solid red;
+  margin: auto;
 }
