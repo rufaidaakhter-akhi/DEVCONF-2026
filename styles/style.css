@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 50px;
+  padding: 10px 50px;
 }
 
 .nav-links {
@@ -24,74 +24,63 @@ ul.nav-links li a {
 }
 
 button {
-  background-color: rgb(25, 60, 173);
+  background-color: #2563EB;
   color: white;
+  font-size: 17px;
+  font-style: bold;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 12px;
   border: none;
   cursor: pointer;
 }
+/* end nav bar for the page  */ 
 
-/* banner */
+/* start hero banner */
 .banner {
   background:
     linear-gradient(rgba(27, 27, 27, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/banner.jpg");
-  height: 100vh;
-  background-size: cover;
-  display: grid;
-  place-items: center;
-  margin-bottom: 20px;
+    background-size: cover;
+    height: 100vh;
+ 
 }
-h1 {
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+  gap: 10px;
+  align-items: center;
+  border: 1px solid red;
+  height: 100%;
   color: white;
+  text-align: center;
+}
+
+.banner-content h1 {
   font-size: 80px;
-  text-align: center;
+  font-weight: bold;
 }
-h2 {
-  color: black;
-  font-size: 40px;
-  text-align: center;
-}
-.banner p {
-  color: rgb(129, 129, 129);
-  font-size: 20 px;
+
+.banner-content p {
+  font-size: 22px;
+  font-weight: regular;
   width: 50%;
-  text-align: center;
-  margin: auto;
-  padding: auto;
+  margin: 24px auto;
+  color: #FFFFFF;
 }
 
-main  {
-    text-align: center;
-    padding: 50px;
-}
-
-.speakers {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 20px;
-  width: 80%;
-  margin: auto;
-  padding: 20px; 
-
-}
-
-.speaker-card {
-    width: auto;
-    height: auto;
-  border: 1px solid #ccc;
+.banner-content button {
+  background-color: #1D4ED8;
+  color: white;
+  font-size: 24px;
+  font-style: bold;
+  width: auto;
+  height: 73px;
+  padding: 20px 80px;
   border-radius: 10px;
-  text-align: left;
-  padding: 20px;
+  border: none;
+  cursor: pointer;
 }
-
-.speaker-card img {
-  width: 100%;
-  height: auto;
-}
-
-.track-label {
-  font-size: 16px;
-  color: #244eaa;
-}
+/* end hero banner */
