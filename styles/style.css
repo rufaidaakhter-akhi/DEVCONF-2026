@@ -210,8 +210,186 @@ padding-left: 10px;
 margin: 10px;
 color: #FFFFFF;
 }
+
+
+
+
+
+/* try */
+
+/* start Developer Career Hub */
+.career-hub {
+  position: relative;
+  padding: 100px 24px;
+  background: #0b1120;
+  background-image:
+    radial-gradient(circle at 15% 0%, rgba(124, 58, 237, 0.28), transparent 55%),
+    radial-gradient(circle at 85% 100%, rgba(37, 99, 235, 0.28), transparent 55%);
+  overflow: hidden;
+}
+
+.career-hub-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.career-eyebrow {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #93c5fd;
+  padding: 6px 16px;
+  border: 1px solid rgba(147, 197, 253, 0.35);
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+
+.career-title {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 16px;
+  background: linear-gradient(100deg, #ffffff 30%, #93c5fd 65%, #c4b5fd 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.career-subtitle {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #9aa5b8;
+  max-width: 620px;
+  margin: 0 auto 56px;
+}
+
+.career-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.career-card {
+  position: relative;
+  text-align: left;
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 28px 24px;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.career-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(147, 197, 253, 0.4);
+  box-shadow: 0 20px 40px -20px rgba(37, 99, 235, 0.45);
+}
+
+.career-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+}
+
+.career-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.career-card h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.career-card p {
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: #9aa5b8;
+  margin-bottom: 18px;
+}
+
+.career-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #93c5fd;
+  text-decoration: none;
+  transition: gap 0.2s ease, color 0.2s ease;
+}
+
+.career-link:hover {
+  color: #c4b5fd;
+  gap: 10px;
+}
+
+.career-cta {
+  display: flex;
+  justify-content: center;
+}
+
+.career-cta-btn {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  font-size: 17px;
+  padding: 16px 36px;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px -12px rgba(124, 58, 237, 0.55);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.career-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 34px -12px rgba(124, 58, 237, 0.7);
+}
+
+@media (max-width: 1024px) {
+  .career-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .career-hub {
+    padding: 72px 20px;
+  }
+  .career-title {
+    font-size: 32px;
+  }
+  .career-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* end Developer Career Hub */
+
+/* end try  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
 footer{
-  background-color: #2f3031;
+  background-color: #0f0f0f;
   
   
 }
