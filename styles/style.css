@@ -389,13 +389,23 @@ color: #FFFFFF;
 
 /* footer */
 footer{
-  background-color: #0f0f0f;
-  
+  background-color: #000000;
+  padding: 10px 20px;
   
 }
 
 .logo-f{display: flex;
-padding: 32px;}
+  justify-content: space-between;
+  gap: 20px;
+  list-style-type: none;
+  align-items: center;}
+footer ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style-type: none;
+  align-items: center;
+}
 
 footer hr{
     border: 0;
